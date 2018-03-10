@@ -1,6 +1,9 @@
 body {
   background: #DCDCDC
 }
+.body {
+  margin-top: 40px;
+}
 .header li, .footer li {
   float: left;
 }
@@ -16,8 +19,6 @@ body {
   background: white;
 }
 .menu {
-  width: 965px;
-  margin-top: 10px;
   margin-bottom: 10px;
   background: url('../img/menu.jpg');
   background-repeat: repeat-x;
@@ -26,45 +27,61 @@ body {
   padding-top: 10px;
   padding-bottom: 10px;
   width: 145px;
-  height: 30px;
+  padding-left: 10px;
   color: white;
 }
 li:first-child {
   margin: 0px;
 }
-li:hover {
+.header li:hover {
 background: black;
+}
+.left li:hover {
+  padding-left: 35px;
+background: #DCDCDC;
 }
 .left ul {
   width: 240px;
-  height: 240px;
   border: solid 1px grey;
+}
+.left li:last-child {
+   border-bottom: none;
 }
 .left li {
   color: grey;
-  width: 240px;
-  height: 40px;
+  padding: 15px;
   border-bottom: solid 1px grey;
 }
 .right {
-  width: 675px;
-  height: 588px;
   float: right;
   }
 .right p {
   width: 630px;
-  height: 145px;
+  margin-bottom: 40px;
   margin-top: 40px;
 }
 .right img {
+  width: 100%;
   border: solid 1px grey;
 }
+.footer {
+  background-color: #DCDCDC;
+}
 .footer ul {
-  width: 965px;
-  height: 40px;
 }
 .footer li {
+  padding-left: 25px;
+  padding: 10px;
   float:left;
+}
+.footer li:last-child {
+  float: right;
+}
+.footer li:last-child:hover {
+  text-decoration: none;
+}
+.footer li:hover {
+  text-decoration: underline;
 }
 .clearfix,
 .clearfix:before,
@@ -73,3 +90,4 @@ background: black;
     display: block;
     float: none;
     clear: both;
+}
