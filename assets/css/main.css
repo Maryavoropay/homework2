@@ -70,11 +70,11 @@ background: #DCDCDC;
 .footer ul {
 }
 .footer li {
-  padding-left: 25px;
-  padding: 10px;
+  padding: 10px 80px 10px 10px;
   float:left;
 }
 .footer li:last-child {
+  padding-right: 10px;
   float: right;
 }
 .footer li:last-child:hover {
