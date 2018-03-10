@@ -17,18 +17,19 @@ body {
 }
 .menu {
   width: 965px;
-  height: 40px;
-  padding: 12px;
-  background: url('/Users/natvla/Documents/homework2/assets/img/menu.jpg');
+  margin-top: 10px;
+  margin-bottom: 10px;
+  background: url('../img/menu.jpg');
   background-repeat: repeat-x;
 }
 .header li {
+  padding-top: 10px;
+  padding-bottom: 10px;
   width: 145px;
-  height: 40px;
-  margin-left: 60px;
+  height: 30px;
   color: white;
 }
-  li:first-child {
+li:first-child {
   margin: 0px;
 }
 li:hover {
